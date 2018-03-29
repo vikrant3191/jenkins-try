@@ -11,7 +11,7 @@ public class Openchrome {
 	
 	@Test
 	public static void browser() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "E:\\LIBRABRIES\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "E:\\GIT PROJECT\\jenkins-try\\executables\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.navigate().to("http://www.qaclickacademy.com/practice.php");
 		driver.findElement(By.id("dropdown-class-example")).click();
